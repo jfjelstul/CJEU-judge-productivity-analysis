@@ -65,7 +65,7 @@ summary(gc_model)
 
 # Function to create index
 create_index <- function(x) {
-  x <- (x - min(x)) / (max(x) - min(x)) * (10 - 0) + 0
+  x <- (x - min(x)) / (max(x) - min(x)) * 10
   x <- 10 - x
   return(x)
 }
